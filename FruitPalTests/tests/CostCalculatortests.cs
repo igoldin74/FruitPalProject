@@ -1,17 +1,8 @@
 ﻿using FruitPal;
-using FruitPalTests.models;
 using Moq;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FruitPalTests.tests
 {
