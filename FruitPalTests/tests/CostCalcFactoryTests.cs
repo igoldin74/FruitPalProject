@@ -4,6 +4,10 @@ using NUnit.Framework;
 
 namespace FruitPalTests.tests
 {
+    /// <summary>
+    /// I added few generic test for the Factory class. 
+    /// I also used Moq to mock the ILogger interface 
+    /// </summary>
     [TestFixture]
     class CostCalcFactoryTests
     {

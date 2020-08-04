@@ -5,14 +5,16 @@ using System.Collections.Generic;
 
 namespace FruitPalTests
 {
+    /// <summary>
+    /// Here I am testing mostly for proper exceptions and exception messages. 
+    /// I utilized Nunit buil-in capability of using testdata with the [TestCase] attribute.
+    /// This can be extended to add more tests data.
+    /// Pretty much every unit test that I write follows the AAA logic: 
+    /// There is an Arrange, an Act, and an Assert part in it.
+    /// </summary>
     [TestFixture]
     public class ConsoleCommandTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [TestCase("", typeof(ArgumentException))]
         [TestCase("    ", typeof(ArgumentException))]
         [TestCase("test", typeof(ArgumentException))]

@@ -6,6 +6,12 @@ using System.Reflection;
 
 namespace FruitPalTests.tests
 {
+    /// <summary>
+    /// Here I created a test to verify cost calculator output.
+    /// I feed the calculator input from an external data source (csv file), 
+    /// And I validate the output produced by the Trading engine versus expected output, which I also store in the external file.
+    /// Each line in testinput.csv is basically a test case with test data and expected output.
+    /// </summary>
     [TestFixture]
     class CostCalculatorTests
     {
@@ -24,7 +30,6 @@ namespace FruitPalTests.tests
             foreach (var l in lines)
             {
                 string[] line = l.Split(',');
-                //string input = l.Replace(',',' ');
                 string input = string.Join(" ", line, 0, 4);
                 _sut = new TradingEngine(_loggerMock.Object, new ConsoleCommand(input), _commoditySource, _commoditySerializer,
                 new CostCalcFactory(_loggerMock.Object));
