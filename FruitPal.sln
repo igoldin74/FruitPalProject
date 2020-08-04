@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitPal", "FruitPal\FruitPal.csproj", "{B0E5DCB4-1F70-4A1B-937C-31D0A447D054}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitPalTests", "FruitPalTests\FruitPalTests.csproj", "{2878EFA1-62CF-4374-9111-7AA34D42393A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B0E5DCB4-1F70-4A1B-937C-31D0A447D054}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0E5DCB4-1F70-4A1B-937C-31D0A447D054}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0E5DCB4-1F70-4A1B-937C-31D0A447D054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2878EFA1-62CF-4374-9111-7AA34D42393A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2878EFA1-62CF-4374-9111-7AA34D42393A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2878EFA1-62CF-4374-9111-7AA34D42393A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2878EFA1-62CF-4374-9111-7AA34D42393A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

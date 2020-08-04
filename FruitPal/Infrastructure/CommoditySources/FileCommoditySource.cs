@@ -1,4 +1,5 @@
 ﻿using System.IO;
+using System.Reflection;
 
 namespace FruitPal
 {
@@ -6,7 +7,7 @@ namespace FruitPal
     {
         public string GetCommodityFromSource()
         {
-            return File.ReadAllText("commoditydata.json");
+            return File.ReadAllText(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "commoditydata.json"));
         }
     }
 }

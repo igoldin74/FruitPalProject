@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.Collections;
 
 namespace FruitPal
 {
@@ -15,5 +16,6 @@ namespace FruitPal
         public decimal TotalCost { get; set; }
         [JsonIgnore]
         public string OutputCostString { get; set; }
+
     }
 }
